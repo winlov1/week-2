@@ -1,0 +1,22 @@
+section {
+    background-color:rgb(167, 160, 165);
+}
+#grid-flex
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+}
+.grid-item img
+{
+width: 100%;
+}
+.grid-item
+{
+    margin-right: 40px;
+    width: 250px;
+}
+.grid-item:nth-child(1)
+{
+    width: 550px;
+}
